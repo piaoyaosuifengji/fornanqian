@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "模板", "模板\模板.vcxproj", "{FB27EEC4-7078-4ADB-884D-773F36C20DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB27EEC4-7078-4ADB-884D-773F36C20DB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB27EEC4-7078-4ADB-884D-773F36C20DB6}.Debug|Win32.Build.0 = Debug|Win32
+		{FB27EEC4-7078-4ADB-884D-773F36C20DB6}.Release|Win32.ActiveCfg = Release|Win32
+		{FB27EEC4-7078-4ADB-884D-773F36C20DB6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
