@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1785274891</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_MSP430.pbi</file>
+      <file>$PROJ_DIR$\Source Code\LCD\GT23L32S4W.h</file>
+      <file>$PROJ_DIR$\Source Code\LCD\TEST_LM240160.C</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp_Ch.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2619.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key Scan.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_MSP430.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Key Scan.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$PROJ_DIR$\Source Code\LCD\LCD_Graphic.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp_Ch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Font_Storage.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key Scan.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Source Code\LCD\General_File.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key Scan.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LM240160GCW.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LM240160GCW.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Font_Storage.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x26x.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Source Code\LCD\ZiKu.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TEST_LM240160.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\TEST_LM240160.pbi</file>
+      <file>$PROJ_DIR$\Source Code\LCD\Font_Storage.c</file>
+      <file>$PROJ_DIR$\Source Code\Key Scan\Init_MSP430.c</file>
+      <file>$PROJ_DIR$\Source Code\LCD\LM240160GCW.c</file>
+      <file>$PROJ_DIR$\Source Code\LCD\Disp_Ch.c</file>
+      <file>$PROJ_DIR$\Source Code\Key Scan\Key Scan.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Source Code\LCD\TEST_LM240160.C</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16 22 28 26 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 22 28 26 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Key Scan.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 18 27 5 23 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Key Scan.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 9 0 8 19 12 20 25 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source Code\LCD\Font_Storage.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 22 28 26 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 22 28 26 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source Code\Key Scan\Init_MSP430.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28 26 10 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 26 10 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source Code\LCD\LM240160GCW.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 28 26 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 28 26 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source Code\LCD\Disp_Ch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 15 3 1 31 2 17 21 13 30 22 28 26 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 15 3 1 2 17 21 13 30 22 28 26 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source Code\Key Scan\Key Scan.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28 26 10 16 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 26 10 16 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source Code\LCD\TEST_LM240160.C</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

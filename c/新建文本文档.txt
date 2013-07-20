@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<math.h>
+int prime(int);
+void main()
+{
+	int num,num1;
+	for(num=1000;num<=9999;num++)
+	{
+      if(prime(num))
+	  {
+		  num1=1000*(num%10)+100*(num%100/10)+10*(num%10/100)+(num/1000);
+		  if(prime(num1))
+		  {
+        printf("%d ",num);
+		  }
+	  }
+	
+	}
+}
+int prime(int a)
+{
+	int i;
+	for(i=2;i<=a/2;i++)
+	{
+		if(a%i==0)
+			return 0;
+		
+	}
+	return 1;
+}

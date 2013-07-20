@@ -1,0 +1,4 @@
+汉字字阵提取程序:Lcmzimo.exe
+彩色液晶取模软件:Image2Lcd.exe
+串口调试软件:ComMonitor.exe
+MSP430开发环境：IAR Embedded Workbench for MSP430 V4.11

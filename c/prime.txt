@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+	int a[1000];
+	int length = findAllFourDigitPrime(a);
+	int x[4][4]={};
+	for(int i=0;i<length;i++)
+	{
+		put(a[i],0,x);
+		//if(isHave(x[0][i]))
+		for(int j=0;j<length;j++)
+		{
+			put(a[j],1,x);
+
+			for(int k=0;k<length;k++)
+			{
+				put(a[k],2,x);
+				for(int l=0;l<length;l++)
+				{
+					put(a[l],3,x);
+					if (isSuperNum(x,4,a,length))
+					{
+						print(x);
+					}
+				}
+
+			}
+		}
+
+	}
+//	int *pAllFourDigitPrime=findAllFourDigitPrime();
+	return 0;
+
+}
+void put(int num,int i,int a[][4])
+{
+	a[i][0]=num/1000;
+	a[i][1]=num/100%10;
+	a[i][2]=num%100/10;
+	a[i][3]=num%10;
+}
+int isSuperNum(int primeMatrix[][4],int sizeA,int invPrime[],int sizeB)
+{
+	if(! isInvprime(primeMatrix[0][0],primeMatrix[1][0],
+		            primeMatrix[2][0],primeMatrix[3][0]),
+					invPrime,sizeB)
+		return 0;
+	if(! isInvprime(primeMatrix[0][1],primeMatrix[1][1],
+		            primeMatrix[1][2],primeMatrix[1][3]),
+					invPrime,sizeB))
+		return 0;
+	if(! isInvprime(primeMatrix[0][2],primeMatrix[1][2],
+		            primeMatrix[2][2],primeMatrix[3][2]),
+					invPrime,sizeB))
+		return 0;
+	if(! isInvprime(primeMatrix[0][3],primeMatrix[1][3],
+		            primeMatrix[2][3],primeMatrix[3][3]),
+					invPrime,sizeB))
+		return 0;
+	if(! isInvprime(primeMatrix[0][0],primeMatrix[1][1],
+		            primeMatrix[2][2],primeMatrix[3][3]),
+					invPrime,sizeB))
+		return 0;
+	if(! isInvprime(primeMatrix[0][3],primeMatrix[1][2],
+		            primeMatrix[2][1],primeMatrix[3][0]),
+					invPrime,sizeB))
+		return 0;
+	return 1;
+}
+int isInvPrime(int a,int b,int c,int d,int a[],int size)
+{
+	int num=1000*a+100*b+10*c+d;
+	for(int i=0;i<size;i++)
+	{
+		if(a[i]==num)
+			return 1;
+	}
+	return 0;
+}
+
+void findAllFourDigitPrime(int *b)

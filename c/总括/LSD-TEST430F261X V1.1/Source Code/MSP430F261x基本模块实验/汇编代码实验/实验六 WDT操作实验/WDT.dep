@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1759716656</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\MSP430x261x_wdt.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\WDT.d43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2619.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\&#x57FA;&#x4e8e;LSD_TEST430F261x&#x7684;&#x7eFC;&#x5408;&#x5B9e;&#x9A8C;\&#x5B9e;&#x9A8C;&#x516D; &#x8BeD;&#x97F3;&#x5904;&#x7406;&#x5B9e;&#x9A8C;\SourceCode\Sound_File\Sound_Set.c</file>
+      <file>$PROJ_DIR$\MSP430x261x_wdt.s43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x26x.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\WDT.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 2 6 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MSP430x261x_wdt.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,30 @@
+/**************************************************************************
+** 版权:   杭州利尔达科技有限公司
+** 文件名:Delay.S43
+** 版本：V1.0
+** 工作环境:IAR Embedded Workbench Evaluation for MSP430 4.10A
+** 作者:Huanglongsong
+** 生成日期:2008年8月22日
+** 功能:延时子程序
+** 相关文件:
+** 修改日志
+;**************************************************************************/
+        NAME    Delay
+        PUBLIC  Delay 
+        RSEG    My_code
+Delay:
+        PUSHX      R4
+        PUSHX      R5
+        MOVX       #100, R4           
+DEC_R4:
+        MOVX       #1000, R5
+DEC_R5:
+        DECX       R5
+        JNZ       DEC_R5
+        DECX       R4
+        NOP
+        JNZ       DEC_R4
+        POPX       R5
+        POPX       R4
+        RET
+        END

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log/>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>73</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23807-28572</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-23285-28582</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1788-28575</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Touch Key</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12536-28578</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>F:\LSD-TEST430F261x-I-V1.1\LSD-TEST430F261x-V1.1&#x5185;&#x90e8;\Source Code\LSD-TEST430F261x&#x7684;&#x7eFC;&#x5408;&#x5B9e;&#x9A8C;\&#x5B9e;&#x9A8C;&#x516B; &#x89e6;&#x6478;&#x6309;&#x952e;&#x5B9e;&#x9A8C;\Touch_Key\main.c</Filename><XPos>0</XPos><YPos>29</YPos><SelStart>1218</SelStart><SelEnd>1218</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01328a58><key>iaridepm.enu1</key></Toolbar-01328a58></Sizes></Row0><Row1><Sizes><Toolbar-04ea1338><key>debuggergui.enu1</key></Toolbar-04ea1338></Sizes></Row1><Row2><Sizes><Toolbar-04e9fe70><key>430fet1</key></Toolbar-04e9fe70></Sizes></Row2></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>440</Bottom><Right>147</Right><x>-2</x><y>-2</y><xscreen>149</xscreen><yscreen>137</yscreen><sizeHorzCX>156513</sizeHorzCX><sizeHorzCY>205090</sizeHorzCY><sizeVertCX>156513</sizeVertCX><sizeVertCY>661677</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>440</Bottom><Right>147</Right><x>-2</x><y>-2</y><xscreen>149</xscreen><yscreen>137</yscreen><sizeHorzCX>156513</sizeHorzCX><sizeHorzCY>205090</sizeHorzCY><sizeVertCX>156513</sizeVertCX><sizeVertCY>661677</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>135</Bottom><Right>954</Right><x>-2</x><y>-2</y><xscreen>956</xscreen><yscreen>137</yscreen><sizeHorzCX>1004202</sizeHorzCX><sizeHorzCY>205090</sizeHorzCY><sizeVertCX>156513</sizeVertCX><sizeVertCY>205090</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

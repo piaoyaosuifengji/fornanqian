@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2888893253</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\Segment_LCD.pbi</file>
+      <file>$PROJ_DIR$\LCD\I2C_Serve.c</file>
+      <file>$PROJ_DIR$\LCD\I2C_Define.h</file>
+      <file>$PROJ_DIR$\LCD\Segment_LCD.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Serve.pbi</file>
+      <file>$PROJ_DIR$\Touch_Key\subroutine.c</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Segment_LCD.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\subroutine.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x26x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Serve.r43</file>
+      <file>$PROJ_DIR$\Touch_Key\subroutine.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Touch Key.d43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2619.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\LCD\General_File.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Touch Key.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Touch_Key\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\subroutine.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\LCD\I2C_Serve.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 6 7 2 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 6 7 2 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD\Segment_LCD.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 6 7 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 6 7 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Touch_Key\subroutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 10 6 7</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 12 10 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Touch Key.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15 14 20 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Touch Key.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Touch_Key\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 6 7 1 2 18 3 12 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 6 7 1 2 18 3 12 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Touch_Key\subroutine.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

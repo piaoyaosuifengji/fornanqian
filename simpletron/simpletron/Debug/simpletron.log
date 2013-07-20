@@ -1,28 +1,20 @@
-﻿生成启动时间为 2013/7/19 23:15:35。
-     1>项目“D:\vs2020\simpletron\simpletron\simpletron.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2013/7/20 14:06:26。
+     1>项目“D:\vs2020\fornanqian\simpletron\simpletron\simpletron.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\simpletron.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\softinstall\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>d:\vs2020\simpletron\simpletron\main.cpp(20): warning C4101: “j”: 未引用的局部变量
+         所有输出均为最新。
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         D:\softinstall\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs2020\simpletron\Debug\simpletron.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\simpletron.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs2020\simpletron\Debug\simpletron.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs2020\simpletron\Debug\simpletron.lib" /MACHINE:X86 Debug\simpletron.exe.embed.manifest.res
-         Debug\file.obj
-         Debug\main.obj
+         所有输出均为最新。
        Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\simpletron.exe.embed.manifest" /manifest Debug\simpletron.exe.intermediate.manifest
          所有输出均为最新。
-       LinkEmbedManifest:
-         所有输出均为最新。
-         simpletron.vcxproj -> D:\vs2020\simpletron\Debug\simpletron.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\simpletron.unsuccessfulbuild”。
          正在对“Debug\simpletron.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\vs2020\simpletron\simpletron\simpletron.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“D:\vs2020\fornanqian\simpletron\simpletron\simpletron.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.02
+已用时间 00:00:00.15

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>MP3_BU9435/Debug</Project><Project>Audio/Debug</Project><Project>BT_LCD/Debug</Project></CurrentConfigs><CurrentProj>MP3_BU9435</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>222</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <TerminalIO/>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Disassembly>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+    <Debug-Log/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18090-11070</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws></ExpandedNode><ExpandedNode>Audio</ExpandedNode><ExpandedNode>Audio/CAT5110</ExpandedNode><ExpandedNode>BT_LCD</ExpandedNode><ExpandedNode>MP3_BU9435</ExpandedNode><ExpandedNode>MP3_BU9435/main.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-26413-12347</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-4787-18971</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\&#x8DD1;&#x9A6C;&#x706F;\msp430F2619_leds.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>614</SelStart><SelEnd>614</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench Evaluation 5.0\430\inc\msp430x26x.h</Filename><XPos>0</XPos><YPos>1021</YPos><SelStart>51354</SelStart><SelEnd>51354</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\MSP430F619&#x6A21;&#x5757;&#x8BD5;&#x9A8C;&#x4F8B;&#x7A0B;\MSP430F261x_Code\C Code\MSP430x261x_PA.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>917</SelStart><SelEnd>917</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\MSP430F619&#x6A21;&#x5757;&#x8BD5;&#x9A8C;&#x4F8B;&#x7A0B;\MSP430F261x_ASM\ASM_Code\MSP430X2619X_PA.s43</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>682</SelStart><SelEnd>682</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\MSP430F619&#x6A21;&#x5757;&#x8BD5;&#x9A8C;&#x4F8B;&#x7A0B;\MSP430F261x_Code\C Code\MSP430x261x_lpm3111.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>1727</SelStart><SelEnd>1727</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\&#x6587;&#x6863;&#x8D44;&#x6599;\&#x4ee3;&#x7801;&amp;&#x6587;&#x6863;\code\msp430F2619_svs_LED.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\F2619_RTC\Seg_LCD\Segment_LCD.c</Filename><XPos>0</XPos><YPos>114</YPos><SelStart>584</SelStart><SelEnd>584</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\F2619_RTC\RTC\Horologe.c</Filename><XPos>0</XPos><YPos>222</YPos><SelStart>736</SelStart><SelEnd>736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\F2619_RTC\LCD\Font_Storage.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\&#x8D44;&#x6599;\&#x97F3;&#x9891;&#x89e3;&#x7801;\CODE\source code\main.c</Filename><XPos>0</XPos><YPos>367</YPos><SelStart>10334</SelStart><SelEnd>10334</SelEnd></Tab><ActiveTab>9</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\Sound_Module\SourceCode\Audio_File\Audio_System.c</Filename><XPos>0</XPos><YPos>167</YPos><SelStart>4782</SelStart><SelEnd>4782</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\Project_Code\Sound_Module\SourceCode\Audio_File\Audio_Set.c</Filename><XPos>0</XPos><YPos>231</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench Evaluation 5.0\430\inc\msp430x16x.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>277</SelStart><SelEnd>277</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\&#x8D44;&#x6599;\&#x97F3;&#x9891;&#x89e3;&#x7801;\CODE\source code\Unicode2GB.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>622</SelStart><SelEnd>622</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\&#x8D44;&#x6599;\&#x97F3;&#x9891;&#x89e3;&#x7801;\CODE\source code\lcd.h</Filename><XPos>0</XPos><YPos>125</YPos><SelStart>7430</SelStart><SelEnd>7430</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\LSD_TEST_F2619\&#x8D44;&#x6599;\&#x97F3;&#x9891;&#x89e3;&#x7801;\CODE\source code\169I2CA.h</Filename><XPos>0</XPos><YPos>146</YPos><SelStart>1881</SelStart><SelEnd>1881</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-014880e8><key>iaridepm.enu1</key></Toolbar-014880e8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes><Toolbar-0b136ab8><key>debuggergui.enu1</key></Toolbar-0b136ab8></Sizes></Row3><Row4><Sizes><Toolbar-0b11ab40><key>430fet1</key></Toolbar-0b11ab40></Sizes></Row4></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>789</Bottom><Right>296</Right><x>-2</x><y>-2</y><xscreen>-1193625</xscreen><yscreen>-1724053</yscreen><sizeHorzCX>-932519530</sizeHorzCX><sizeHorzCY>-1762835377</sizeHorzCY><sizeVertCX>232813</sizeVertCX><sizeVertCY>808793</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>144</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>146</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>149284</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>204499</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

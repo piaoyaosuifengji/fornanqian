@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\&#x5B9e;&#x9A8C;&#x4e09; &#x77e9;&#x9635;&#x5F0F;&#x952e;&#x76D8;&#x626B;&#x63CF;&#x5B9e;&#x9A8C;\Key Scan.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Led_Display.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\&#x5B9e;&#x9A8C;&#x4e00; &#x6BB5;&#x5F0F;LCD&#x5B9e;&#x9A8C;\Segment_LCD.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

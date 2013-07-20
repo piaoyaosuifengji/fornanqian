@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1202866376</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\Soft_RTC.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp_Ch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LM240160GCW.pbi</file>
+      <file>$PROJ_DIR$\RTC\RTC_Head_File.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Font_Storage.pbi</file>
+      <file>$PROJ_DIR$\Seg_LCD\I2C_Define.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x26x.h</file>
+      <file>$PROJ_DIR$\LCD\Font_Storage.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2619.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_MSP430.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Segment_LCD.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Font_Storage.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Seg_LCD\General_File.h</file>
+      <file>$PROJ_DIR$\LCD\ZiKu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Disp_Ch.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\LCD\GT23L32S4W.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\Segment_LCD.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Serve.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\LSD_TEST261x\&#x57FA;&#x4e8e;LSD_TEST430F261x&#x7684;&#x7eFC;&#x5408;&#x5B9e;&#x9A8C;\&#x5B9e;&#x9A8C;&#x5341; &#x97F3;&#x9891;&#x89e3;&#x7801;&#x97F3;&#x4e50;&#x64AD;&#x653e;&#x5668;&#x5B9e;&#x9A8C;\Source Code\BU72435\BU72435_Control.c</file>
+      <file>$PROJ_DIR$\Seg_LCD\I2C_Serve.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Horologe.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LM240160GCW.r43</file>
+      <file>$PROJ_DIR$\RTC\Horologe.c</file>
+      <file>$PROJ_DIR$\RTC\Init_MSP430.c</file>
+      <file>$PROJ_DIR$\LCD\LM240160GCW.c</file>
+      <file>$PROJ_DIR$\Seg_LCD\Segment_LCD.c</file>
+      <file>$PROJ_DIR$\LCD\Disp_Ch.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_MSP430.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Soft_RTC.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Horologe.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\I2C_Serve.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Soft_RTC.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 9 22 19 15 40 24 12 29 23 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD\Font_Storage.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 17 6 41 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 17 6 41 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Seg_LCD\I2C_Serve.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 6 41 16 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 6 41 16 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RTC\Horologe.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 3 6 41 16 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 6 41 16 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RTC\Init_MSP430.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 41 16 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 41 16 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD\LM240160GCW.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17 6 41 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 6 41 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Seg_LCD\Segment_LCD.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17 6 41 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 6 41 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD\Disp_Ch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 14 25 43 38 8 10 20 11 18 17 6 41 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 14 25 43 8 10 20 11 18 17 6 41 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Soft_RTC.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 1 4 28 42 35 2 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

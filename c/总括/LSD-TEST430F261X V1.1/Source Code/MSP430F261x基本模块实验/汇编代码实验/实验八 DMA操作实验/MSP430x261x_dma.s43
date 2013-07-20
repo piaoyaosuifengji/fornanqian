@@ -1,0 +1,49 @@
+/*******************************************************************************
+// 版权:   杭州利尔达科技有限公司
+// 文件名:MSP430F261x_DMA.S43
+// 版本：V1.0
+// 工作环境:IAR Embedded Workbench Evaluation for MSP430 4.10A
+// 作者:Huanglongsong
+// 功能描述： MSP430x26x的DMA演示例程，通过TA触发DMA0将一组字符串量以单字节重复
+//    传输到目的地址P5OUT寄存器中，每传输一次改变一次P5OUT寄存器的值，P5.7上连接
+//    的LED的闪烁体现出变化状态！
+//   ACLK = 32kHz, MCLK = SMCLK = TACLK = default DCO 1.045MHz
+//
+//               MSP430F261x
+//             -----------------
+//         /|\|              XIN|-
+//          | |                 | 32kHz
+//          --|RST          XOUT|-
+//            |                 |
+//            |             P5.7|--> LED
+//            |                 | 
+//
+//
+******************************************************************************/
+#include "msp430x26x.h"
+;-------------------------------------------------------------------------------
+            RSEG    CSTACK                  ; 定义堆栈段
+;-------------------------------------------------------------------------------
+            RSEG    CODE                    ; 定义程序段
+;-------------------------------------------------------------------------------
+RESET       mov.w   #SFE(CSTACK),SP         ; 初始化堆栈指针
+StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL  ; 停止开门狗
+SetupP5     bis.b   #BIT7,&P5DIR            ; P5.7输出模式
+SetupDMA0   mov.w   #DMA0TSEL_1,&DMACTL0    ; TACCR2为DMA0的触发源
+            movx.a   #testconst,&DMA0SA     ; 源地址初始化
+            movx.a   #P5OUT,&DMA0DA         ; 目的地址初始化
+            mov.w   #02h,&DMA0SZ            ; 传输长度
+            mov.w   #DMADT_4+DMASRCINCR_3+DMASBDB+DMAEN,&DMA0CTL; 单字节重复传输，源地址增加，启动DMA
+SetupTA     mov.w   #TASSEL_2+MC_2,&TACTL   ; 初始化TA，时钟源自SMCLK，连续计数模式
+                                            ;
+Mainloop    bis.w   #CPUOFF,SR              ; 进入低功耗模式0( 关CPU)
+            nop                             ; 仅在调试时使用
+                                            ;
+testconst   DB 00h,80h
+                                            ;
+;-------------------------------------------------------------------------------
+            COMMON  INTVEC                  ; 中断相量表
+;-------------------------------------------------------------------------------
+            ORG     RESET_VECTOR            ; 系统上电复位地址
+            DW      RESET
+            END
