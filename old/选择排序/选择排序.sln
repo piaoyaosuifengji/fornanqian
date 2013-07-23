@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "选择排序", "选择排序\选择排序.vcxproj", "{93CD731D-3A8B-48AF-9289-5D2BAF279B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CD731D-3A8B-48AF-9289-5D2BAF279B79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93CD731D-3A8B-48AF-9289-5D2BAF279B79}.Debug|Win32.Build.0 = Debug|Win32
+		{93CD731D-3A8B-48AF-9289-5D2BAF279B79}.Release|Win32.ActiveCfg = Release|Win32
+		{93CD731D-3A8B-48AF-9289-5D2BAF279B79}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
