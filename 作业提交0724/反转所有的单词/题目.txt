@@ -1,3 +1,0 @@
-3、反转所有的单词
-input:hello world
-output:olleh dlrow 

@@ -1,3 +1,0 @@
-2¡¢·´×ª×Ö·û´®
-input:hello world
-output:dlrow olleh
